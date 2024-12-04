@@ -29,7 +29,8 @@ PRODUCT_PACKAGES += \
     init.disabled.rc \
     init.halium.rc \
     vndk-detect \
-    on-post-data.sh
+    on-post-data.sh \
+    logd.rc
 
 # Keymaster
 PRODUCT_PACKAGES += \
