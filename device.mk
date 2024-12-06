@@ -28,9 +28,9 @@ PRODUCT_USE_DYNAMIC_PARTITION_SIZE := true
 PRODUCT_PACKAGES += \
     init.disabled.rc \
     init.halium.rc \
+    logd.halium.rc \
     vndk-detect \
-    on-post-data.sh \
-    logd.rc
+    on-post-data.sh
 
 # Keymaster
 PRODUCT_PACKAGES += \
